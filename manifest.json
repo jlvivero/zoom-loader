@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "zoom video loader",
+    "version": "1.0.1",
+    "description": "extract zoom recording to be able to download it",
+    "content_scripts":[
+        {
+            "matches":[
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
